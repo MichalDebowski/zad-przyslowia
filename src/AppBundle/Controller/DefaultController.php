@@ -561,4 +561,12 @@ public function biedneyAction()
     return $this->render('default/biedny.html.twig');
 }
 
+/**
+ * @Route("/do-ludzi.html", name="do-ludzi")
+ */
+public function doludziAction()
+{
+    return $this->render('default/do-ludzi.html.twig');
+}
+
 }
