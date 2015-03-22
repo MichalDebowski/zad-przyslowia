@@ -561,4 +561,12 @@ public function biedneyAction()
     return $this->render('default/biedny.html.twig');
 }
 
+/**
+ * @Route("/Dzieci.html", name="Dzieci")
+ */
+public function dzieciAction()
+{
+    return $this->render('default/dzieci.html.twig');
+}
+
 }
