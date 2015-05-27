@@ -702,6 +702,17 @@ public function goscwdomuAction()
 }
 
 /*
+     * CC
+     */
+/**
+ * @Route("/dzieci.html", name="dzieci")
+ */
+public function dzieciAction()
+{
+    return $this->render('default/dzieci.html.twig');
+}
+
+/*
 * BR
 */
 /**
