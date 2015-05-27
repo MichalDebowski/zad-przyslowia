@@ -701,6 +701,17 @@ public function goscwdomuAction()
     return $this->render('default/gosc-w-domu.html.twig');
 }
 
+ /*
+     * DD
+     */
+/**
+ * @Route("/do-ludzi.html", name="do-ludzi")
+ */
+public function doludziAction()
+{
+    return $this->render('default/do-ludzi.html.twig');
+}
+
 /*
 * BR
 */
